@@ -1,0 +1,24 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "htmlacademy/es6",
+    "plugin:vue/recommended"
+  ],
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "no-console": 1,
+    "no-invalid-this": 0,
+    "object-curly-spacing": [2, "always"],
+    "vue/html-closing-bracket-newline": 0,
+    "vue/no-v-html": 0
+  }
+}

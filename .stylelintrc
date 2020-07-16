@@ -1,0 +1,10 @@
+{
+  "extends": "stylelint-efiand",
+  "processors": ["stylelint-processor-html"],
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "indentation": 2
+  }
+}

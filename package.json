@@ -1,0 +1,48 @@
+{
+  "name": "portfolio",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": "git@github.com:efiand/portfolio.git",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^1.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "eslint": "^7.4.0",
+    "eslint-config-htmlacademy": "^0.5.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "gh-pages": "^3.1.0",
+    "htmlhint": "^0.14.1",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.5.1",
+    "nuxt-svg": "^0.1.4",
+    "precommit": "^1.2.2",
+    "sass-loader": "^9.0.2",
+    "stylelint": "^13.6.1",
+    "stylelint-efiand": "^0.1.14",
+    "stylelint-processor-html": "^1.0.0",
+    "stylelint-scss": "^3.5.4"
+  },
+  "scripts": {
+    "vuehint": "htmlhint --config .vuehintrc **/*.vue",
+    "stylelint": "stylelint \"assets/scss/**/*.scss\" \"**/*.vue\"",
+    "eslint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "editorconfig-cli && npm run vuehint && npm run stylelint && npm run eslint",
+    "start": "npm test && nuxt",
+    "build": "npm test && nuxt generate && htmlhint build/**/*.html",
+    "deploy": "gh-pages -d build"
+  },
+  "precommit": "npm test",
+  "editorconfig-cli": [
+    "*.js*",
+    ".*",
+    "**/*.vue",
+    "assets/**/*.*",
+    "plugins/**/*.*",
+    "static/**/*.{php,txt,*ml}"
+  ],
+  "browserslist": [
+    "last 6 version",
+    "> 0.2%",
+    "not dead"
+  ]
+}

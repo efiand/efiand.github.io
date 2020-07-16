@@ -1,0 +1,416 @@
+{
+  "host": "https://efiand.github.io/portfolio",
+  "siteName": "efiand",
+  "pageDescription": "Портфолио веб-разработчика Андрея Ефимова",
+  "ogImage": "/img/welcome.svg",
+  "ogImageAlt": "Аватар разработчика",
+  "header": {
+    "heading": "Портфолио веб-разработчика Андрея Ефимова",
+    "welcome": {
+      "heading": "Добро пожаловать!",
+      "lead": "Здравствуйте. Меня зовут Андрей. Я вкладываю душу в сайты… и они оживают!",
+      "img": {
+        "src": "img/welcome.svg",
+        "width": 429,
+        "height": 392,
+        "alt": "Аватар разработчика"
+      }
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "text": "HTML Academy",
+        "url": "https://htmlacademy.ru/profile/efiand"
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/efiand"
+      },
+      {
+        "text": "Codewars",
+        "url": "https://www.codewars.com/users/efiand"
+      },
+      {
+        "text": "E-mail",
+        "url": "mailto:efiand@ya.ru"
+      }
+    ]
+  },
+  "modalCloserText": "Закрыть окно",
+  "filters": {
+    "ready": "Под ключ",
+    "mentoring": "Наставничество",
+    "njk": "Nunjucks",
+    "twig": "Twig",
+    "handlebars": "Handlebars",
+    "scss": "SCSS",
+    "less": "Less",
+    "es5": "ES 5",
+    "es6": "ES 6",
+    "jquery": "JQuery",
+    "nuxt": "Nuxt.js",
+    "svelte": "Svelte",
+    "gulp": "Gulp",
+    "webpack": "Webpack",
+    "rollup": "Rollup",
+    "php": "PHP",
+    "mysql": "MySQL",
+    "ajax": "AJAX",
+    "amp": "AMP",
+    "adaptive": "Adaptive",
+    "semantic": "Semantic",
+    "a11y": "Accessibility",
+    "pe": "Progressive enhancement",
+    "ie": "IE 11",
+    "sprites": "Sprites",
+    "design": "Design",
+    "ai": "Adobe Illustrator"
+  },
+  "works": [
+    {
+      "name": "Пасьянс «Колодец»",
+      "description": "Карточная игра из одной HTML-страницы для настольных и мобильных платформ.",
+      "img": "/img/well.jpg",
+      "deploy": "https://efiand.github.io/well",
+      "time": "Август 2018 — апрель 2019",
+      "options": {
+        "repo": "https://github.com/efiand/well"
+      },
+      "filters": [
+        "ready",
+        "njk",
+        "scss",
+        "es6",
+        "gulp",
+        "adaptive",
+        "semantic",
+        "ie",
+        "sprites",
+        "design",
+        "ai"
+      ]
+    },
+    {
+      "name": "ПерепроШивка",
+      "description": "Лендинг тренинга личностного роста от Дмития Хара.",
+      "img": "/img/khara24.jpg",
+      "deploy": "https://khara24.ru",
+      "time": "Март 2019 – июль 2020",
+      "options": {},
+      "filters": [
+        "ready",
+        "less",
+        "es6",
+        "mysql",
+        "php",
+        "ajax",
+        "adaptive",
+        "semantic",
+        "a11y",
+        "ie",
+        "design",
+        "ai",
+        "svelte",
+        "webpack",
+        "rollup",
+        "twig"
+      ]
+    },
+    {
+      "name": "Sedona",
+      "description": "Наставническая версия учебного проекта HTML Academy.",
+      "img": "/img/sedona.jpg",
+      "deploy": "https://efiand.github.io/sedona-adaptive",
+      "time": "Апрель 2019",
+      "options": {
+        "repo": "https://github.com/efiand/sedona-adaptive"
+      },
+      "filters": [
+        "mentoring",
+        "njk",
+        "scss",
+        "es6",
+        "gulp",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "sprites"
+      ]
+    },
+    {
+      "name": "«Netbiblio»",
+      "description": "Фонд авторской художественной литературы на русском языке. Волонтёрская разработка.",
+      "img": "/img/netbiblio.jpg",
+      "deploy": "https://netbiblio.ru",
+      "time": "Октябрь 2017 — февраль 2019",
+      "options": {
+        "repo": "https://github.com/efiand/netbiblio"
+      },
+      "filters": [
+        "ready",
+        "njk",
+        "scss",
+        "es6",
+        "gulp",
+        "amp",
+        "adaptive",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "design",
+        "ai",
+        "ajax",
+        "php"
+      ]
+    },
+    {
+      "name": "Nerds",
+      "description": "Наставническая версия учебного проекта HTML Academy.",
+      "img": "/img/nerds.jpg",
+      "deploy": "https://efiand.github.io/nerds",
+      "time": "Февраль 2019",
+      "options": {
+        "repo": "https://github.com/efiand/nerds",
+        "pack": "https://github.com/efiand/gulp-cooker"
+      },
+      "filters": [
+        "mentoring",
+        "njk",
+        "scss",
+        "es6",
+        "gulp",
+        "ajax",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "sprites"
+      ]
+    },
+    {
+      "name": "EVRAZ",
+      "description": "Тестовое задание на вакансию «Верстальщик».",
+      "img": "/img/evraz.jpg",
+      "deploy": "https://efiand.github.io/evraz",
+      "time": "Август 2018",
+      "options": {
+        "repo": "https://github.com/efiand/evraz"
+      },
+      "filters": [
+        "njk",
+        "scss",
+        "gulp",
+        "semantic",
+        "a11y",
+        "pe",
+        "sprites"
+      ]
+    },
+    {
+      "name": "FIX Ремонт",
+      "description": "Тестовое задание на вакансию «Фронтенд-разработчик».",
+      "img": "/img/fix-remont.jpg",
+      "deploy": "https://efiand.github.io/fix-remont",
+      "time": "Июль 2018",
+      "options": {
+        "repo": "https://github.com/efiand/fix-remont"
+      },
+      "filters": [
+        "njk",
+        "less",
+        "es5",
+        "gulp",
+        "semantic",
+        "a11y",
+        "pe"
+      ]
+    },
+    {
+      "name": "PROSTO Telecom",
+      "description": "Тестовое задание на вакансию «Фронтенд-разработчик».",
+      "img": "/img/prosto.jpg",
+      "deploy": "https://efiand.github.io/prosto",
+      "time": "Июль 2018",
+      "options": {
+        "repo": "https://github.com/efiand/prosto"
+      },
+      "filters": [
+        "njk",
+        "scss",
+        "es5",
+        "gulp",
+        "ajax",
+        "adaptive",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "sprites"
+      ]
+    },
+    {
+      "name": "Keksobooking",
+      "description": "Учебный проект с интенсива HTML Academy.",
+      "img": "/img/keksobooking.jpg",
+      "deploy": "https://efiand.github.io/keksobooking",
+      "time": "Июль 2018",
+      "options": {
+        "repo": "https://github.com/efiand/keksobooking"
+      },
+      "filters": [
+        "es5",
+        "ajax"
+      ]
+    },
+    {
+      "name": "Pink",
+      "description": "Учебный проект с интенсива HTML Academy.",
+      "img": "/img/pink.jpg",
+      "deploy": "https://efiand.github.io/pink",
+      "time": "Май 2018",
+      "options": {
+        "repo": "https://github.com/efiand/pink"
+      },
+      "filters": [
+        "scss",
+        "es5",
+        "gulp",
+        "adaptive",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "sprites"
+      ]
+    },
+    {
+      "name": "Карта проекта «Литература на экране»",
+      "description": "Интерактивная схема. Волонтёрский проект.",
+      "img": "/img/kirjandusekraanil.jpg",
+      "deploy": "https://efiand.github.io/kirjandusekraanil",
+      "time": "Апрель 2018",
+      "options": {
+        "repo": "https://github.com/efiand/kirjandusekraanil"
+      },
+      "filters": [
+        "njk",
+        "scss",
+        "es5",
+        "gulp",
+        "adaptive",
+        "semantic"
+      ]
+    },
+    {
+      "name": "«За здоровое поколение на пороге XXI века»",
+      "description": "Сайт межрегионального общественного благотворительного фонда. Волонтёрская разработка.",
+      "img": "/img/mobf21.jpg",
+      "deploy": "https://efiand.github.io/mobf21",
+      "time": "Апрель 2018",
+      "options": {
+        "repo": "https://github.com/efiand/mobf21"
+      },
+      "filters": [
+        "ready",
+        "less",
+        "gulp",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "design",
+        "ai"
+      ]
+    },
+    {
+      "name": "Device",
+      "description": "Учебный проект с интенсива HTML Academy.",
+      "img": "/img/device.jpg",
+      "deploy": "https://efiand.github.io/device",
+      "time": "Март 2018",
+      "options": {
+        "repo": "https://github.com/efiand/device"
+      },
+      "filters": [
+        "es5",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie"
+      ]
+    },
+    {
+      "name": "YetiCave",
+      "description": "Учебный проект с интенсива HTML Academy.",
+      "img": "/img/coding.svg",
+      "deploy": "https://yeticave.efiand.ru",
+      "time": "Декабрь 2017",
+      "options": {},
+      "filters": [
+        "php",
+        "mysql"
+      ]
+    },
+    {
+      "name": "Милкснуды «Мама может!»",
+      "description": "Лендинг с отправкой заявки на почту.",
+      "img": "/img/milksnood.jpg",
+      "deploy": "https://efiand.github.io/milksnood",
+      "time": "Октябрь 2017 — апрель 2018",
+      "options": {
+        "repo": "https://github.com/efiand/milksnood"
+      },
+      "filters": [
+        "ready",
+        "scss",
+        "es5",
+        "gulp",
+        "php",
+        "adaptive",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "design",
+        "ai"
+      ]
+    },
+    {
+      "name": "Kvast",
+      "description": "Вёрстка по скриншоту с изготовлением иконок.",
+      "img": "/img/kvast.jpg",
+      "deploy": "https://efiand.github.io/kvast",
+      "time": "Сентябрь 2017",
+      "options": {
+        "repo": "https://github.com/efiand/kvast"
+      },
+      "filters": [
+        "semantic",
+        "a11y",
+        "pe",
+        "ie",
+        "ai"
+      ]
+    },
+    {
+      "name": "Gllacy",
+      "description": "Учебный проект с интенсива HTML Academy.",
+      "img": "/img/gllacy.jpg",
+      "deploy": "https://efiand.github.io/gllacy",
+      "time": "Август 2017",
+      "options": {
+        "repo": "https://github.com/efiand/gllacy"
+      },
+      "filters": [
+        "es5",
+        "semantic",
+        "a11y",
+        "pe",
+        "ie"
+      ]
+    }
+  ]
+}

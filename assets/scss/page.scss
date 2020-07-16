@@ -1,0 +1,42 @@
+.page {
+  overflow-y: scroll;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: $sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  color: $color-text;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $color-back;
+}
+
+.page__main {
+  display: block;
+}
+
+.page__heading {
+  margin: 2.5rem 0 1rem;
+  font-weight: 700;
+  font-size: 1.75em;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    margin: 4rem 0 2rem;
+  }
+}
+
+.page__description {
+  display: table;
+  margin: 0 auto 2rem;
+  font-size: 1.25rem;
+  font-family: $serif;
+}

@@ -1,0 +1,47 @@
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-skip-ink: none;
+  color: $color-link;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 4px;
+  outline: none;
+  transition-property: color, opacity, background-color, border-color, box-shadow;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+
+  &[href]:hover,
+  &:focus {
+    background-color: $color-back;
+    box-shadow: 0 0 0 2px currentColor;
+  }
+
+  &[href]:active {
+    color: #ffffff;
+    background-color: $color-link;
+    box-shadow: inset -1px 0 4px 1px rgba(#000000, 0.2);
+    transition-duration: 0.3s;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  clip: rect(0, 0, 0, 0);
+}

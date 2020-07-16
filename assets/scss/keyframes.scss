@@ -1,0 +1,22 @@
+@keyframes sweep {
+  0%,
+  50% {
+    bottom: -40px;
+    transform: scale(0);
+  }
+
+  100% {
+    bottom: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes appearFromDown {
+  0% {
+    top: 600px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
