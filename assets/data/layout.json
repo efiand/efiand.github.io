@@ -43,6 +43,7 @@
     "mentoring": "Наставничество",
     "njk": "Nunjucks",
     "twig": "Twig",
+    "xslt": "XSLT",
     "handlebars": "Handlebars",
     "scss": "SCSS",
     "less": "Less",
@@ -287,24 +288,6 @@
       ]
     },
     {
-      "name": "Карта проекта «Литература на экране»",
-      "description": "Интерактивная схема. Волонтёрский проект.",
-      "img": "/img/kirjandusekraanil.jpg",
-      "deploy": "https://efiand.github.io/kirjandusekraanil",
-      "time": "Апрель 2018",
-      "options": {
-        "repo": "https://github.com/efiand/kirjandusekraanil"
-      },
-      "filters": [
-        "njk",
-        "scss",
-        "es5",
-        "gulp",
-        "adaptive",
-        "semantic"
-      ]
-    },
-    {
       "name": "«За здоровое поколение на пороге XXI века»",
       "description": "Сайт межрегионального общественного благотворительного фонда. Волонтёрская разработка.",
       "img": "/img/mobf21.jpg",
@@ -322,7 +305,8 @@
         "pe",
         "ie",
         "design",
-        "ai"
+        "ai",
+        "twig"
       ]
     },
     {
@@ -365,17 +349,17 @@
       },
       "filters": [
         "ready",
-        "scss",
-        "es5",
+        "less",
+        "es6",
         "gulp",
-        "php",
         "adaptive",
         "semantic",
         "a11y",
         "pe",
         "ie",
         "design",
-        "ai"
+        "ai",
+        "twig"
       ]
     },
     {
