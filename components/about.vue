@@ -1,5 +1,7 @@
 <template>
-  <section class="container">
+  <section
+    v-if="!$route.query.filter"
+    class="container">
     <h2
       class="page__heading">
       {{ params.heading }}
