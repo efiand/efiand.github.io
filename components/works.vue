@@ -1,5 +1,7 @@
 <template>
-  <section class="works container">
+  <section
+    v-if="heading"
+    class="works container">
     <h2 class="page__heading">
       {{ heading }}
     </h2>
@@ -81,7 +83,10 @@ export default {
 
     heading() {
       if (this.filter) {
-        return this.params.headingWithFilters.replace(`%s`, this.layout.filters[this.filter]);
+        if (this.layout.filters[this.filter]) {
+          return this.params.headingWithFilters.replace(`%s`, this.layout.filters[this.filter]);
+        }
+        return ``;
       }
 
       return this.params.heading;

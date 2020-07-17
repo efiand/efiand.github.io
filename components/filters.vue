@@ -68,7 +68,7 @@ export default {
 
 <style lang="scss">
 .filters {
-  margin: 3rem auto 0;
+  margin: 3rem auto;
 }
 
 .filters__list {
