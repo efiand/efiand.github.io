@@ -363,23 +363,6 @@
       ]
     },
     {
-      "name": "Kvast",
-      "description": "Вёрстка по скриншоту с изготовлением иконок.",
-      "img": "/img/kvast.jpg",
-      "deploy": "https://efiand.github.io/kvast",
-      "time": "Сентябрь 2017",
-      "options": {
-        "repo": "https://github.com/efiand/kvast"
-      },
-      "filters": [
-        "semantic",
-        "a11y",
-        "pe",
-        "ie",
-        "ai"
-      ]
-    },
-    {
       "name": "Gllacy",
       "description": "Учебный проект с интенсива HTML Academy.",
       "img": "/img/gllacy.jpg",
