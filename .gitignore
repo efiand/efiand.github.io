@@ -1,0 +1,14 @@
+*.log*
+*.njsproj
+*.ntvs*
+*.sln
+*.sublime*
+*.suo
+*.sw?
+.DS_Store
+.idea
+.vscode
+__MACOS*
+node_modules
+npm-debug.*
+Thumbs.db
