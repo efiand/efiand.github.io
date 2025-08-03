@@ -1,0 +1,9 @@
+User-agent: *
+Host: https://efiand.github.io
+Sitemap: https://efiand.github.io/sitemap.xml
+
+User-agent: Yandex
+Disallow: /*/amp
+
+User-agent: Googlebot
+Disallow: /*/turbo.rss
